@@ -1,0 +1,47 @@
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\BetCris_Site\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\BetCris_Site\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\BetCris_Site\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\BetCris_Site\bin\Debug\BetCris_Site.dll
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\BetCris_Site\bin\Debug\BetCris_Site.pdb
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\BetCris_Site\bin\Debug\Ejecucion_Pruebas.dll
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\BetCris_Site\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\BetCris_Site\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\BetCris_Site\bin\Debug\Variables.dll
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\BetCris_Site\bin\Debug\WebDriver.dll
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\BetCris_Site\bin\Debug\WebDriver.Support.dll
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\BetCris_Site\bin\Debug\Ejecucion_Pruebas.pdb
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\BetCris_Site\bin\Debug\Variables.pdb
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\BetCris_Site\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\BetCris_Site\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\BetCris_Site\bin\Debug\WebDriver.xml
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\BetCris_Site\bin\Debug\WebDriver.Support.xml
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\BetCris_Site\obj\Debug\BetCris_Site.csprojAssemblyReference.cache
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\BetCris_Site\obj\Debug\BetCris_Site.csproj.CoreCompileInputs.cache
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\BetCris_Site\obj\Debug\BetCris_Site.csproj.CopyComplete
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\BetCris_Site\obj\Debug\BetCris_Site.dll
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\BetCris_Site\obj\Debug\BetCris_Site.pdb
+D:\ControlCodigo\Automation\BetCris MX\BetCris_Site\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\ControlCodigo\Automation\BetCris MX\BetCris_Site\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\ControlCodigo\Automation\BetCris MX\BetCris_Site\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\ControlCodigo\Automation\BetCris MX\BetCris_Site\bin\Debug\BetCris_Site.dll
+D:\ControlCodigo\Automation\BetCris MX\BetCris_Site\bin\Debug\BetCris_Site.pdb
+D:\ControlCodigo\Automation\BetCris MX\BetCris_Site\bin\Debug\Ejecucion_Pruebas.dll
+D:\ControlCodigo\Automation\BetCris MX\BetCris_Site\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\ControlCodigo\Automation\BetCris MX\BetCris_Site\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\ControlCodigo\Automation\BetCris MX\BetCris_Site\bin\Debug\nunit.framework.dll
+D:\ControlCodigo\Automation\BetCris MX\BetCris_Site\bin\Debug\Variables.dll
+D:\ControlCodigo\Automation\BetCris MX\BetCris_Site\bin\Debug\WebDriver.dll
+D:\ControlCodigo\Automation\BetCris MX\BetCris_Site\bin\Debug\WebDriver.Support.dll
+D:\ControlCodigo\Automation\BetCris MX\BetCris_Site\bin\Debug\Ejecucion_Pruebas.pdb
+D:\ControlCodigo\Automation\BetCris MX\BetCris_Site\bin\Debug\Variables.pdb
+D:\ControlCodigo\Automation\BetCris MX\BetCris_Site\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\ControlCodigo\Automation\BetCris MX\BetCris_Site\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\ControlCodigo\Automation\BetCris MX\BetCris_Site\bin\Debug\nunit.framework.pdb
+D:\ControlCodigo\Automation\BetCris MX\BetCris_Site\bin\Debug\nunit.framework.xml
+D:\ControlCodigo\Automation\BetCris MX\BetCris_Site\bin\Debug\WebDriver.xml
+D:\ControlCodigo\Automation\BetCris MX\BetCris_Site\bin\Debug\WebDriver.Support.xml
+D:\ControlCodigo\Automation\BetCris MX\BetCris_Site\obj\Debug\BetCris_Site.csprojAssemblyReference.cache
+D:\ControlCodigo\Automation\BetCris MX\BetCris_Site\obj\Debug\BetCris_Site.csproj.CoreCompileInputs.cache
+D:\ControlCodigo\Automation\BetCris MX\BetCris_Site\obj\Debug\BetCris_Site.csproj.CopyComplete
+D:\ControlCodigo\Automation\BetCris MX\BetCris_Site\obj\Debug\BetCris_Site.dll
+D:\ControlCodigo\Automation\BetCris MX\BetCris_Site\obj\Debug\BetCris_Site.pdb

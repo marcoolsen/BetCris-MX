@@ -1,0 +1,26 @@
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\Ejecucion_Pruebas\bin\Debug\Ejecucion_Pruebas.dll
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\Ejecucion_Pruebas\bin\Debug\Ejecucion_Pruebas.pdb
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\Ejecucion_Pruebas\bin\Debug\Variables.dll
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\Ejecucion_Pruebas\bin\Debug\WebDriver.dll
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\Ejecucion_Pruebas\bin\Debug\WebDriver.Support.dll
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\Ejecucion_Pruebas\bin\Debug\Variables.pdb
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\Ejecucion_Pruebas\bin\Debug\WebDriver.xml
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\Ejecucion_Pruebas\bin\Debug\WebDriver.Support.xml
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\Ejecucion_Pruebas\obj\Debug\Ejecucion_Pruebas.csprojAssemblyReference.cache
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\Ejecucion_Pruebas\obj\Debug\Ejecucion_Pruebas.csproj.CoreCompileInputs.cache
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\Ejecucion_Pruebas\obj\Debug\Ejecucion_Pruebas.csproj.CopyComplete
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\Ejecucion_Pruebas\obj\Debug\Ejecucion_Pruebas.dll
+C:\Users\maolsen\Desktop\QAs\Automation\BetCris_Site\Ejecucion_Pruebas\obj\Debug\Ejecucion_Pruebas.pdb
+D:\ControlCodigo\Automation\BetCris MX\Ejecucion_Pruebas\bin\Debug\Ejecucion_Pruebas.dll
+D:\ControlCodigo\Automation\BetCris MX\Ejecucion_Pruebas\bin\Debug\Ejecucion_Pruebas.pdb
+D:\ControlCodigo\Automation\BetCris MX\Ejecucion_Pruebas\bin\Debug\Variables.dll
+D:\ControlCodigo\Automation\BetCris MX\Ejecucion_Pruebas\bin\Debug\WebDriver.dll
+D:\ControlCodigo\Automation\BetCris MX\Ejecucion_Pruebas\bin\Debug\WebDriver.Support.dll
+D:\ControlCodigo\Automation\BetCris MX\Ejecucion_Pruebas\bin\Debug\Variables.pdb
+D:\ControlCodigo\Automation\BetCris MX\Ejecucion_Pruebas\bin\Debug\WebDriver.xml
+D:\ControlCodigo\Automation\BetCris MX\Ejecucion_Pruebas\bin\Debug\WebDriver.Support.xml
+D:\ControlCodigo\Automation\BetCris MX\Ejecucion_Pruebas\obj\Debug\Ejecucion_Pruebas.csprojAssemblyReference.cache
+D:\ControlCodigo\Automation\BetCris MX\Ejecucion_Pruebas\obj\Debug\Ejecucion_Pruebas.csproj.CoreCompileInputs.cache
+D:\ControlCodigo\Automation\BetCris MX\Ejecucion_Pruebas\obj\Debug\Ejecucion_Pruebas.csproj.CopyComplete
+D:\ControlCodigo\Automation\BetCris MX\Ejecucion_Pruebas\obj\Debug\Ejecucion_Pruebas.dll
+D:\ControlCodigo\Automation\BetCris MX\Ejecucion_Pruebas\obj\Debug\Ejecucion_Pruebas.pdb
