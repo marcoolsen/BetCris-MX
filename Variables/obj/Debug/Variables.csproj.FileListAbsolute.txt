@@ -20,3 +20,25 @@ D:\ControlCodigo\Automation\BetCris MX\Variables\obj\Debug\Variables.csproj.Core
 D:\ControlCodigo\Automation\BetCris MX\Variables\obj\Debug\Variables.csproj.CopyComplete
 D:\ControlCodigo\Automation\BetCris MX\Variables\obj\Debug\Variables.dll
 D:\ControlCodigo\Automation\BetCris MX\Variables\obj\Debug\Variables.pdb
+C:\Automation\BetCris MX\Variables\bin\Debug\Variables.dll
+C:\Automation\BetCris MX\Variables\bin\Debug\Variables.pdb
+C:\Automation\BetCris MX\Variables\bin\Debug\WebDriver.dll
+C:\Automation\BetCris MX\Variables\bin\Debug\WebDriver.Support.dll
+C:\Automation\BetCris MX\Variables\bin\Debug\WebDriver.xml
+C:\Automation\BetCris MX\Variables\bin\Debug\WebDriver.Support.xml
+C:\Automation\BetCris MX\Variables\obj\Debug\Variables.csprojAssemblyReference.cache
+C:\Automation\BetCris MX\Variables\obj\Debug\Variables.csproj.CoreCompileInputs.cache
+C:\Automation\BetCris MX\Variables\obj\Debug\Variables.csproj.CopyComplete
+C:\Automation\BetCris MX\Variables\obj\Debug\Variables.dll
+C:\Automation\BetCris MX\Variables\obj\Debug\Variables.pdb
+C:\Automation\BetCris\Variables\bin\Debug\Variables.dll
+C:\Automation\BetCris\Variables\bin\Debug\Variables.pdb
+C:\Automation\BetCris\Variables\bin\Debug\WebDriver.dll
+C:\Automation\BetCris\Variables\bin\Debug\WebDriver.Support.dll
+C:\Automation\BetCris\Variables\bin\Debug\WebDriver.xml
+C:\Automation\BetCris\Variables\bin\Debug\WebDriver.Support.xml
+C:\Automation\BetCris\Variables\obj\Debug\Variables.csprojAssemblyReference.cache
+C:\Automation\BetCris\Variables\obj\Debug\Variables.csproj.CoreCompileInputs.cache
+C:\Automation\BetCris\Variables\obj\Debug\Variables.csproj.CopyComplete
+C:\Automation\BetCris\Variables\obj\Debug\Variables.dll
+C:\Automation\BetCris\Variables\obj\Debug\Variables.pdb

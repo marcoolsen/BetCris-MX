@@ -11,7 +11,7 @@ namespace BetCris_Site.MobileBetCris
         Ejecucion_Pruebas.Helper helper = new Helper();
         Ejecucion_Pruebas.MobileBetCris.PreLogin preLogin = new Ejecucion_Pruebas.MobileBetCris.PreLogin();
 
-        [TestMethod]
+      //  [TestMethod]
         public void RevisionGeneral()
         {
             VariablesGlobales.strCarpetaPrincipal = System.Reflection.MethodBase.GetCurrentMethod().Name;

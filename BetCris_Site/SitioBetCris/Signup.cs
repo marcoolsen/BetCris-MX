@@ -5,6 +5,9 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Variables;
 using Ejecucion_Pruebas;
 using System.Data;
+using NUnit.Framework;
+using System.Reflection;
+using System.Linq;
 
 namespace BetCris_Site.SitioBetCris
 {
@@ -17,7 +20,8 @@ namespace BetCris_Site.SitioBetCris
         Helper helper = new Helper();
         Ejecucion_Pruebas.SitioBetCris.Signup signup = new Ejecucion_Pruebas.SitioBetCris.Signup();
 
-        [TestMethod]
+
+        [Test]
         public void SignUpAllCountries()
         {
             VariablesGlobales.strCarpetaPrincipal = System.Reflection.MethodBase.GetCurrentMethod().Name;
@@ -27,236 +31,260 @@ namespace BetCris_Site.SitioBetCris
 
             #region MyRegion
             Random random = new Random();
-            DataTable table = new DataTable();
-
-            table.Columns.Add("country", typeof(string));
-            //table.Rows.Add("Aland Islands");
-            //table.Rows.Add("Albania");
-            //table.Rows.Add("Algeria");
-            //table.Rows.Add("Angola");
-            //table.Rows.Add("Anguilla");
-            //table.Rows.Add("Antarctica");
-            //table.Rows.Add("Andorra");
-            //table.Rows.Add("Antigua And Barbuda");
-            //table.Rows.Add("Armenia");
-            //table.Rows.Add("Aruba");
-            //table.Rows.Add("Azerbaijan");
-            //table.Rows.Add("Bahamas");
-            //table.Rows.Add("Bahrain");
-            //table.Rows.Add("Bangladesh");
-            //table.Rows.Add("Barbados");
-            //table.Rows.Add("Belarus");
-            //table.Rows.Add("Belize");
-            //table.Rows.Add("Benin");
-            //table.Rows.Add("Bermuda");
-            //table.Rows.Add("Bhutan");
-            //table.Rows.Add("Bolivia");
-            //table.Rows.Add("Bosnia and Herzegovina");
-            //table.Rows.Add("Botswana");
-            table.Rows.Add("Bouvet Island");
-            table.Rows.Add("Brazil");
-            table.Rows.Add("Brunei");
-            table.Rows.Add("Burkina Faso");
-            table.Rows.Add("Burundi");
-            table.Rows.Add("Cambodia");
-            table.Rows.Add("Cameroon");
-            table.Rows.Add("Canada");
-            table.Rows.Add("Cape Verde");
-            table.Rows.Add("Cayman Islands");
-            table.Rows.Add("Central African Republic");
-            table.Rows.Add("Chad");
-            table.Rows.Add("Chile");
-            table.Rows.Add("China");
-            table.Rows.Add("Christmas Island");
-            table.Rows.Add("Cocos(Keeling)Islands");
-            table.Rows.Add("Comoros");
-            table.Rows.Add("Congo");
-            table.Rows.Add("Congo Democractic Republic of the");
-            table.Rows.Add("Cook Islands");
-            table.Rows.Add("CoteD'Ivoire(IvoryCoast)");
-            table.Rows.Add("Croatia(Hrvatska)");
-            table.Rows.Add("Cuba");
-            table.Rows.Add("CzechRepublic");
-            table.Rows.Add("Djibouti");
-            table.Rows.Add("Dominica");
-            table.Rows.Add("Dominican Republic");
-            table.Rows.Add("East Timor (Timor-Leste)");
-         //   table.Rows.Add("Ecuador");
-            table.Rows.Add("Egypt");
-            table.Rows.Add("El Salvador");
-            table.Rows.Add("Equatorial Guinea");
-            table.Rows.Add("Eritrea");
-            table.Rows.Add("Ethiopia");
-            table.Rows.Add("Falkland Islands(Islas Malvinas)");
-            table.Rows.Add("Faroe Islands");
-            table.Rows.Add("Fiji Islands");
-            table.Rows.Add("Finland");
-          //  table.Rows.Add("French Guiana");
-            table.Rows.Add("French Polynesia");
-            table.Rows.Add("Gabon");
-            table.Rows.Add("Gambia");
-            table.Rows.Add("Georgia");
-            table.Rows.Add("Germany");
-            table.Rows.Add("Ghana");
-            table.Rows.Add("Greenland");
-            table.Rows.Add("Grenada");
-            table.Rows.Add("Guadeloupe");
-            table.Rows.Add("Guatemala");
-            table.Rows.Add("Guinea");
-            table.Rows.Add("Guinea-Bissau");
-            table.Rows.Add("Guyana");
-            table.Rows.Add("Haiti");
-            table.Rows.Add("Heard and McDonald Islands");
-            table.Rows.Add("Honduras");
-            table.Rows.Add("Hong Kong S.A.R.");
-            table.Rows.Add("Iceland");
-            table.Rows.Add("India");
-            table.Rows.Add("Indonesia");
-            table.Rows.Add("Iran");
-            table.Rows.Add("Iraq");
-            table.Rows.Add("Jamaica");
-            table.Rows.Add("Japan");
-            table.Rows.Add("Jordan");
-            table.Rows.Add("Kazakhstan");
-            table.Rows.Add("Kenya");
-            table.Rows.Add("Kiribati");
-            table.Rows.Add("Korea");
-            table.Rows.Add("Korea North");
-            table.Rows.Add("Kuwait");
-            table.Rows.Add("Kyrgyzstan");
-            table.Rows.Add("Laos");
-            table.Rows.Add("Lebanon");
-            table.Rows.Add("Lesotho");
-            //table.Rows.Add("Liberia");
-            //table.Rows.Add("Libya");
-            //table.Rows.Add("Liechtenstein");
-            //table.Rows.Add("Lithuania");
-            //table.Rows.Add("Luxembourg");
-            //table.Rows.Add("Macau S.A.R.");
-            //table.Rows.Add("Macedonia Former Yugoslav Republic of");
-            //table.Rows.Add("Madagascar");
-            //table.Rows.Add("Malawi");
-            //table.Rows.Add("Malaysia");
-            //table.Rows.Add("Maldives");
-            //table.Rows.Add("Mali");
-            //table.Rows.Add("Malta");
-            //table.Rows.Add("Marshall Islands");
-            //table.Rows.Add("Martinique");
-            //table.Rows.Add("Mauritania");
-            //table.Rows.Add("Mauritius");
-            //table.Rows.Add("Mayotte");
-            //table.Rows.Add("Mexico");
-            //table.Rows.Add("Micronesia");
-            //table.Rows.Add("Moldova");
-            //table.Rows.Add("Monaco");
-            //table.Rows.Add("Mongolia");
-            //table.Rows.Add("Montenegro");
-            //table.Rows.Add("Montserrat");
-            //table.Rows.Add("Morocco");
-            //table.Rows.Add("Mozambique");
-            //table.Rows.Add("Myanmar");
-            //table.Rows.Add("Namibia");
-            //table.Rows.Add("Nauru");
-            //table.Rows.Add("Nepal");
-            //table.Rows.Add("Netherlands");
-            //table.Rows.Add("Netherlands Antilles");
-            //table.Rows.Add("New Caledonia");
-            //table.Rows.Add("New Zealand");
-            //table.Rows.Add("Nicaragua");
-            //table.Rows.Add("Niger");
-            //table.Rows.Add("Nigeria");
-            //table.Rows.Add("Niue");
-            //table.Rows.Add("Norfolk Island");
-            //table.Rows.Add("Northern Mariana Islands");
-            //table.Rows.Add("Norway");
-            //table.Rows.Add("Oman");
-            //table.Rows.Add("Pakistan");
-            //table.Rows.Add("Palau");
-            //table.Rows.Add("Panama");
-            //table.Rows.Add("Papua new Guinea");
-            //table.Rows.Add("Paraguay");
-            //table.Rows.Add("Peru");
-            //table.Rows.Add("Philippines");
-            //table.Rows.Add("Qatar");
-            //table.Rows.Add("Reunion");
-            //table.Rows.Add("Romania");
-            //table.Rows.Add("Russia");
-            //table.Rows.Add("Rwanda");
-            //table.Rows.Add("Saint Kitts And Nevis");
-            //table.Rows.Add("Saint Lucia");
-            //table.Rows.Add("Saint Pierre and Miquelon");
-            //table.Rows.Add("SaintVincent And The Grenadines");
-            //table.Rows.Add("Samoa");
-            //table.Rows.Add("San Marino");
-            //table.Rows.Add("Sao Tome and Principe");
-            //table.Rows.Add("Saudi Arabia");
-            //table.Rows.Add("Senegal");
-            //table.Rows.Add("Serbia");
-            //table.Rows.Add("Seychelles");
-            //table.Rows.Add("Sierra Leone");
-            //table.Rows.Add("Singapore");
-            //table.Rows.Add("Slovakia");
-            //table.Rows.Add("Somalia");
-            //table.Rows.Add("South Africa");
-            //table.Rows.Add("SriLanka");
-            //table.Rows.Add("Sudan");
-            //table.Rows.Add("Suriname");
-            //table.Rows.Add("Svalbard And Jan Mayen Islands");
-            //table.Rows.Add("Swaziland");
-            //table.Rows.Add("Switzerland");
-            //table.Rows.Add("Syria");
-            //table.Rows.Add("Taiwan");
-            //table.Rows.Add("Tajikistan");
-            //table.Rows.Add("Tanzania");
-            //table.Rows.Add("Thailand");
-            //table.Rows.Add("Togo");
-            //table.Rows.Add("Tokelau");
-            //table.Rows.Add("Tonga");
-            //table.Rows.Add("Trinidad And Tobago");
-            //table.Rows.Add("Tunisia");
-            //table.Rows.Add("Turkmenistan");
-            //table.Rows.Add("Turks And Caicos Islands");
-            //table.Rows.Add("Tuvalu");
-            //table.Rows.Add("Uganda");
-            //table.Rows.Add("Ukraine");
-            //table.Rows.Add("United Arab Emirates");
-            //table.Rows.Add("Uruguay");
-            //table.Rows.Add("Uzbekistan");
-            //table.Rows.Add("Vanuatu");
-            //table.Rows.Add("Vatican City State (HolySee)");
-            //table.Rows.Add("Venezuela");
-            //table.Rows.Add("Vietnam");
-            //table.Rows.Add("Wallis And Futuna Islands");
-            //table.Rows.Add("Western Sahara");
-            //table.Rows.Add("Yemen");
-            //table.Rows.Add("Zambia");
-            //table.Rows.Add("Zimbabwe");
+            string firsName = "Automation";
+            string lastName = "Test";
+            string day = "1";
+            string month = "1";
+            string year = "1990";
+            string email = string.Format("qa{0:0000}@test.com", random.Next(100000));
+            string password = "ABC123xyz";
+            string repassword = "ABC123xyz";
+            string phone = "88888888";
+            string coin = "1";
 
             #endregion
 
             helper.CreaArchivoResultados(VariablesGlobales.path);
             helper.CreaArchivoResultados(VariablesGlobales.pathemail);
+            /*paises que no van 
+             CzechRepublic, Finland, Germany, Lithuania, Luxembourg, Malta, Netherlands, Norway, Romania, Slovakia, Uruguay, 
+             */
+            AssertAll.Succeed(
+            () => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email, password, repassword, "Aland Islands", phone, coin)),
+            () => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Albania", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Algeria", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Angola", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Anguilla", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Antarctica", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Andorra", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Antigua And Barbuda", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Armenia", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Aruba", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Azerbaijan", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Bahamas", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Bahrain", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Bangladesh", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Barbados", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Belarus", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Belize", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Benin", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Bermuda", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Bhutan", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Bolivia", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Bosnia and Herzegovina", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Botswana", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Bouvet Island", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Brazil", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Brunei", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Burkina Faso", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Burundi", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Cambodia", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Cameroon", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Canada", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Cape Verde", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Cayman Islands", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Central African Republic", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Chad", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Chile", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "China", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Christmas Island", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Cocos(Keeling)Islands", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Comoros", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Congo", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Congo Democractic Republic of the", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Cook Islands", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "CoteD'Ivoire(IvoryCoast)", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Croatia(Hrvatska)", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Cuba", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Djibouti", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Dominica", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Dominican Republic", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "East Timor (Timor-Leste)", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Ecuador", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Egypt", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "El Salvador", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Equatorial Guinea", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Eritrea", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Ethiopia", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Falkland Islands(Islas Malvinas)", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Faroe Islands", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Fiji Islands", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "French Guiana", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "French Polynesia", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Gabon", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Gambia", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Georgia", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Ghana", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Greenland", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Grenada", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Guadeloupe", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Guatemala", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Guinea", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Guinea-Bissau", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Guyana", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Haiti", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Heard and McDonald Islands", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Honduras", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Hong Kong S.A.R.", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Iceland", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "India", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Indonesia", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Iran", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Iraq", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Jamaica", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Japan", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Jordan", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Kazakhstan", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Kenya", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Kiribati", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Korea", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Korea North", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Kuwait", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Kyrgyzstan", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Laos", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Lebanon", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Lesotho", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Liberia", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Libya", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Liechtenstein", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Macau S.A.R.", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Macedonia Former Yugoslav Republic of", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Madagascar", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Malawi", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Malaysia", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Maldives", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Mali", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Marshall Islands", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Martinique", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Mauritania", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Mauritius", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Mayotte", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Mexico", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Micronesia", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Moldova", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Monaco", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Mongolia", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Montenegro", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Montserrat", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Morocco", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Mozambique", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Myanmar", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Namibia", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Nauru", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Nepal", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Netherlands Antilles", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "New Caledonia", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "New Zealand", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Nicaragua", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Niger", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Nigeria", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Niue", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Norfolk Island", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Northern Mariana Islands", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Oman", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Pakistan", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Palau", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Panama", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Papua new Guinea", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Paraguay", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Peru", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Philippines", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Qatar", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Reunion", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Russia", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Rwanda", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Saint Kitts And Nevis", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Saint Lucia", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Saint Pierre and Miquelon", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "SaintVincent And The Grenadines", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Samoa", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "San Marino", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Sao Tome and Principe", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Saudi Arabia", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Senegal", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Serbia", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Seychelles", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Sierra Leone", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Singapore", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Somalia", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "South Africa", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "SriLanka", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Sudan", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Suriname", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Svalbard And Jan Mayen Islands", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Swaziland", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Switzerland", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Syria", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Taiwan", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Tajikistan", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Tanzania", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Thailand", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Togo", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Tokelau", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Tonga", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Trinidad And Tobago", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Tunisia", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Turkmenistan", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Turks And Caicos Islands", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Tuvalu", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Uganda", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Ukraine", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "United Arab Emirates", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Uzbekistan", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Vanuatu", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Vatican City State (HolySee)", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Venezuela", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Vietnam", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Wallis And Futuna Islands", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Western Sahara", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Yemen", phone, coin)),
+            //() => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Zambia", phone, coin)),
+            () => NUnit.Framework.Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email = string.Format("qa{0:0000}@test.com", random.Next(100000)), password, repassword, "Zimbabwe", phone, coin))
+            );
+        }
 
-            foreach (DataRow row in table.Rows)
+        public static class AssertAll
+        {
+            public static void Succeed(params Action[] assertions)
             {
-                string firsName = "Automation";
-                string lastName = "Test";
-                string day = "1";
-                string month = "1";
-                string year = "1990";
-                string email = string.Format("qa{0:0000}@test.com", random.Next(100000));
-                string password = "ABC123xyz";
-                string repassword = "ABC123xyz";
-                string country = row["country"].ToString();
-                string phone = "88888888";
-                string coin = "1";
+                var errors = new List<Exception>();
+                Helper helper = new Helper();
+                foreach (var assertion in assertions)
+                    try
+                    {
+                        helper.IniciaBrowser(VariablesGlobales.urlbetcrisPrd, VariablesGlobales.navegador);
 
+                        assertion();
 
-                helper.IniciaBrowser(VariablesGlobales.urlbetcrisPrd, VariablesGlobales.navegador);
-                Assert.IsTrue(signup.ReviewSignup(firsName, lastName, day, month, year, email, password, repassword, country, phone, coin));
-                helper.CierraNavegador(VariablesGlobales.Sdriver);
+                        helper.CierraNavegador(VariablesGlobales.Sdriver);
+                    }
+                    catch (Exception ex)
+                    {
+                        errors.Add(ex);
+                    }
+
+                if (errors.Any())
+                {
+                    var ex = new AssertionException(
+                        string.Join(Environment.NewLine, errors.Select(e => e.Message)),
+                        errors.First());
+
+                    // Use stack trace from the first exception to ensure first
+                    // failed Assert is one click away
+                    ReplaceStackTrace(ex, errors.First().StackTrace);
+
+                    throw ex;
+                }
             }
 
+            static void ReplaceStackTrace(Exception exception, string stackTrace)
+            {
+                var remoteStackTraceString = typeof(Exception)
+                    .GetField("_remoteStackTraceString",
+                        BindingFlags.Instance | BindingFlags.NonPublic);
+
+                remoteStackTraceString.SetValue(exception, stackTrace);
+            }
         }
     }
 }

@@ -21,3 +21,179 @@ Bhutan -OK
 Bolivia -OK
 Bosnia and Herzegovina -OK
 Botswana -OK
+Bouvet Island -OK
+Brazil -OK
+Brunei -OK
+Burkina Faso -OK
+Burundi -OK
+Cambodia -OK
+Cameroon -OK
+Canada -OK
+Cape Verde -OK
+Cayman Islands -OK
+Central African Republic -OK
+Chad -OK
+Chile -OK
+China -OK
+Christmas Island -OK
+Cocos(Keeling)Islands -OK
+Comoros -OK
+Congo -OK
+Congo Democractic Republic of the -OK
+Cook Islands -OK
+CoteD'Ivoire(IvoryCoast) -OK
+Croatia(Hrvatska) -OK
+Cuba -OK
+CzechRepublic FAIL****************************************
+Djibouti -OK
+Dominica -OK
+Dominican Republic -OK
+East Timor (Timor-Leste) -OK
+Egypt -OK
+El Salvador -OK
+Equatorial Guinea -OK
+Eritrea -OK
+Ethiopia -OK
+Falkland Islands(Islas Malvinas) -OK
+Faroe Islands -OK
+Fiji Islands -OK
+Finland FAIL****************************************
+French Polynesia -OK
+Gabon -OK
+Gambia -OK
+Georgia -OK
+Germany FAIL****************************************
+Ghana -OK
+Greenland -OK
+Grenada -OK
+Guadeloupe -OK
+Guatemala -OK
+Guinea -OK
+Guinea-Bissau -OK
+Guyana -OK
+Haiti -OK
+Heard and McDonald Islands -OK
+Honduras FAIL****************************************
+Hong Kong S.A.R. -OK
+Iceland -OK
+India -OK
+Indonesia -OK
+Iran -OK
+Iraq -OK
+Jamaica -OK
+Japan -OK
+Jordan -OK
+Kazakhstan -OK
+Kenya -OK
+Kiribati -OK
+Korea -OK
+Korea North -OK
+Kuwait -OK
+Kyrgyzstan -OK
+Laos -OK
+Lebanon -OK
+Lesotho -OK
+Liberia -OK
+Libya -OK
+Liechtenstein -OK
+Lithuania FAIL****************************************
+Luxembourg FAIL****************************************
+Macau S.A.R. -OK
+Macedonia Former Yugoslav Republic of -OK
+Madagascar -OK
+Malawi -OK
+Malaysia -OK
+Maldives -OK
+Mali -OK
+Malta FAIL****************************************
+Marshall Islands -OK
+Martinique -OK
+Mauritania -OK
+Mauritius -OK
+Mayotte -OK
+Mexico -OK
+Micronesia -OK
+Moldova -OK
+Monaco -OK
+Mongolia -OK
+Montenegro -OK
+Montserrat -OK
+Morocco -OK
+Mozambique -OK
+Myanmar -OK
+Namibia -OK
+Nauru -OK
+Nepal -OK
+Netherlands FAIL****************************************
+Netherlands Antilles -OK
+New Caledonia -OK
+New Zealand -OK
+Nicaragua -OK
+Niger -OK
+Nigeria -OK
+Niue -OK
+Norfolk Island -OK
+Northern Mariana Islands -OK
+Norway FAIL****************************************
+Oman -OK
+Pakistan -OK
+Palau -OK
+Panama FAIL****************************************
+Papua new Guinea -OK
+Paraguay -OK
+Peru -OK
+Philippines -OK
+Qatar -OK
+Reunion -OK
+Romania FAIL****************************************
+Russia -OK
+Rwanda -OK
+Saint Kitts And Nevis -OK
+Saint Lucia -OK
+Saint Pierre and Miquelon -OK
+SaintVincent And The Grenadines -OK
+Samoa -OK
+San Marino -OK
+Sao Tome and Principe -OK
+Saudi Arabia -OK
+Senegal -OK
+Serbia -OK
+Seychelles -OK
+Sierra Leone -OK
+Singapore -OK
+Slovakia FAIL****************************************
+Somalia -OK
+South Africa -OK
+SriLanka -OK
+Sudan -OK
+Suriname -OK
+Svalbard And Jan Mayen Islands -OK
+Swaziland -OK
+Switzerland -OK
+Syria -OK
+Taiwan -OK
+Tajikistan -OK
+Tanzania -OK
+Thailand -OK
+Togo -OK
+Tokelau -OK
+Tonga -OK
+Trinidad And Tobago -OK
+Tunisia -OK
+Turkmenistan -OK
+Turks And Caicos Islands -OK
+Tuvalu -OK
+Uganda -OK
+Ukraine -OK
+United Arab Emirates -OK
+Uruguay FAIL****************************************
+Uzbekistan -OK
+Vanuatu -OK
+Vatican City State (HolySee) -OK
+Venezuela -OK
+Vietnam -OK
+Wallis And Futuna Islands -OK
+Western Sahara -OK
+Yemen -OK
+Zambia -OK
+Zimbabwe -OK

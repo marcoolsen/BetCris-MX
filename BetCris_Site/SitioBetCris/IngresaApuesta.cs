@@ -15,8 +15,8 @@ namespace BetCris_Site.Sitio
         Ejecucion_Pruebas.Sitio.Login login = new Ejecucion_Pruebas.Sitio.Login();
         Ejecucion_Pruebas.SitioBetCris.IngresaApuesta ingresaApuesta = new Ejecucion_Pruebas.SitioBetCris.IngresaApuesta();
 
-        [TestMethod]
-        [TestInitialize]
+        //[TestMethod]
+        //[TestInitialize]
         public void LoginSite()
         {
             VariablesGlobales.strCarpetaPrincipal = System.Reflection.MethodBase.GetCurrentMethod().Name;
@@ -28,7 +28,7 @@ namespace BetCris_Site.Sitio
             Assert.IsTrue(login.IngresaSiteBetCris(VariablesGlobales.playerid, VariablesGlobales.playerpass));
         }
 
-        [TestMethod]
+       // [TestMethod]
         public void InsertStraighBet()
         {
             #region VariablesLocales
@@ -47,7 +47,7 @@ namespace BetCris_Site.Sitio
 
         }
 
-        [TestMethod]
+       // [TestMethod]
         public void InsertStraighBetWithFP()
         {
             #region VariablesLocales
@@ -65,7 +65,7 @@ namespace BetCris_Site.Sitio
 
         }
 
-        [TestMethod]
+      //  [TestMethod]
         public void InsertStraighBetMultiples()
         {
             #region VariablesLocales
@@ -90,7 +90,7 @@ namespace BetCris_Site.Sitio
 
         }
 
-        [TestMethod]
+       // [TestMethod]
         public void InsertParlay()
         {
             #region VariablesLocales
@@ -113,7 +113,7 @@ namespace BetCris_Site.Sitio
 
         }
 
-        [TestMethod]
+       // [TestMethod]
         public void InsertTeaser()
         {
             #region VariablesLocales

@@ -37,8 +37,8 @@ namespace Variables
         public static int Contador;
         #endregion
 
-        public static string path = @"D:\ControlCodigo\Automation\BetCris MX\Evidencias\" + "SignUp-Results-" + DateTime.Now.Year.ToString() + '_' + DateTime.Now.Month.ToString() + '_' + DateTime.Now.Day.ToString() + ".txt";
-        public static string pathemail = @"D:\ControlCodigo\Automation\BetCris MX\Evidencias\" + "Emails-" + DateTime.Now.Year.ToString() + '_' + DateTime.Now.Month.ToString() + '_' + DateTime.Now.Day.ToString() + ".txt";
+        public static string path = @"C:\Automation\BetCris\Evidencias\" + "SignUp-Results-" + DateTime.Now.Year.ToString() + '_' + DateTime.Now.Month.ToString() + '_' + DateTime.Now.Day.ToString() + ".txt";
+        public static string pathemail = @"C:\Automation\BetCris\Evidencias\" + "Emails-" + DateTime.Now.Year.ToString() + '_' + DateTime.Now.Month.ToString() + '_' + DateTime.Now.Day.ToString() + ".txt";
 
 
     }

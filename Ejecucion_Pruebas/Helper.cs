@@ -12,6 +12,7 @@ using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.Support.UI;
 using System.IO;
 using System.Threading;
+using System.Diagnostics;
 
 namespace Ejecucion_Pruebas
 {
@@ -57,12 +58,9 @@ namespace Ejecucion_Pruebas
                     throw new Exception(System.Reflection.MethodBase.GetCurrentMethod().Name + ex + " NO se logro inicializar el webdriver");
                 }
 
-                VariablesGlobales.Sdriver.Manage().Window.Maximize();
                 VariablesGlobales.Sdriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
-
-
+                VariablesGlobales.Sdriver.Manage().Window.Maximize();
                 VariablesGlobales.Sdriver.Url = url;
-
                 return true;
             }
             catch (Exception ex)
@@ -115,6 +113,13 @@ namespace Ejecucion_Pruebas
 
         public void CierraNavegador(IWebDriver Sdriver)
         {
+            //Process[] chromeDriverProcesses = Process.GetProcessesByName("chromedriver");
+
+            //foreach (var chromeDriverProcess in chromeDriverProcesses)
+            //{
+            //    chromeDriverProcess.Kill();
+            //}
+            Sdriver.Close();
             Sdriver.Quit();
         }
 
@@ -156,7 +161,7 @@ namespace Ejecucion_Pruebas
             try
             {
 
-                string Directorio = @"D:\ControlCodigo\Automation\BetCris MX\Evidencias\" + strDirectorio + '_' + DateTime.Now.Year.ToString() + '_' + DateTime.Now.Month.ToString() + '_' +
+                string Directorio = @"C:\Automation\BetCris\Evidencias\" + strDirectorio + '_' + DateTime.Now.Year.ToString() + '_' + DateTime.Now.Month.ToString() + '_' +
                 DateTime.Now.Day.ToString() + '_' + DateTime.Now.Hour.ToString() + '_' + DateTime.Now.Minute.ToString() + '_' + DateTime.Now.Second.ToString();
 
 
@@ -284,7 +289,6 @@ namespace Ejecucion_Pruebas
             WebDriverWait wait = new WebDriverWait(Sdriver, TimeSpan.FromSeconds(TimeSec));
             wait.Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(element));
         }
-
 
         public void ElementToBeClickableSelenium(IWebDriver Sdriver, int TimeSec, By elementBy)
         {

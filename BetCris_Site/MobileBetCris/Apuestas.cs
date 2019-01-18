@@ -14,7 +14,7 @@ namespace BetCris_Site.MobileBetCris
         Ejecucion_Pruebas.MobileBetCris.Apuestas apuestas = new Ejecucion_Pruebas.MobileBetCris.Apuestas();
 
 
-        [TestMethod]
+       // [TestMethod]
         public void PreloginBetEnd()
         {
             VariablesGlobales.strCarpetaPrincipal = System.Reflection.MethodBase.GetCurrentMethod().Name;
@@ -26,7 +26,7 @@ namespace BetCris_Site.MobileBetCris
             Assert.IsTrue(login.IngresaMobileBetCris(VariablesGlobales.playerid, VariablesGlobales.playerpass));
         }
 
-        [TestMethod]
+       // [TestMethod]
         public void StraightBet()
         {
             VariablesGlobales.strCarpetaPrincipal = System.Reflection.MethodBase.GetCurrentMethod().Name;
@@ -42,7 +42,7 @@ namespace BetCris_Site.MobileBetCris
             // helper.IniciaBrowserMobile(VariablesGlobales.urlbetcrisMX, VariablesGlobales.mobiledevice);
             Assert.IsTrue(apuestas.InsertStraightBet(sport, manual, typebet, riskAmount));
         }
-        [TestMethod]
+      //  [TestMethod]
         public void Parlay()
         {
             VariablesGlobales.strCarpetaPrincipal = System.Reflection.MethodBase.GetCurrentMethod().Name;

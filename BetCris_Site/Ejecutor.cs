@@ -13,7 +13,7 @@ namespace BetCris_Site
         BetCris_Site.MobileBetCris.PreLogin preLogin = new MobileBetCris.PreLogin();
         BetCris_Site.MobileBetCris.Apuestas apuestas = new MobileBetCris.Apuestas();
 
-        [TestMethod]
+       // [TestMethod]
         public void Disparador()
         {
             ingresaApuesta.LoginSite();
@@ -24,7 +24,7 @@ namespace BetCris_Site
             //ingresaApuesta.InsertTeaser();
         }
 
-        [TestMethod]
+       // [TestMethod]
         public void DisparadorMobile()
         {
             preLogin.RevisionGeneral();

@@ -24,3 +24,29 @@ D:\ControlCodigo\Automation\BetCris MX\Ejecucion_Pruebas\obj\Debug\Ejecucion_Pru
 D:\ControlCodigo\Automation\BetCris MX\Ejecucion_Pruebas\obj\Debug\Ejecucion_Pruebas.csproj.CopyComplete
 D:\ControlCodigo\Automation\BetCris MX\Ejecucion_Pruebas\obj\Debug\Ejecucion_Pruebas.dll
 D:\ControlCodigo\Automation\BetCris MX\Ejecucion_Pruebas\obj\Debug\Ejecucion_Pruebas.pdb
+C:\Automation\BetCris MX\Ejecucion_Pruebas\bin\Debug\Ejecucion_Pruebas.dll
+C:\Automation\BetCris MX\Ejecucion_Pruebas\bin\Debug\Ejecucion_Pruebas.pdb
+C:\Automation\BetCris MX\Ejecucion_Pruebas\bin\Debug\Variables.dll
+C:\Automation\BetCris MX\Ejecucion_Pruebas\bin\Debug\WebDriver.dll
+C:\Automation\BetCris MX\Ejecucion_Pruebas\bin\Debug\WebDriver.Support.dll
+C:\Automation\BetCris MX\Ejecucion_Pruebas\bin\Debug\Variables.pdb
+C:\Automation\BetCris MX\Ejecucion_Pruebas\bin\Debug\WebDriver.xml
+C:\Automation\BetCris MX\Ejecucion_Pruebas\bin\Debug\WebDriver.Support.xml
+C:\Automation\BetCris MX\Ejecucion_Pruebas\obj\Debug\Ejecucion_Pruebas.csprojAssemblyReference.cache
+C:\Automation\BetCris MX\Ejecucion_Pruebas\obj\Debug\Ejecucion_Pruebas.csproj.CoreCompileInputs.cache
+C:\Automation\BetCris MX\Ejecucion_Pruebas\obj\Debug\Ejecucion_Pruebas.csproj.CopyComplete
+C:\Automation\BetCris MX\Ejecucion_Pruebas\obj\Debug\Ejecucion_Pruebas.dll
+C:\Automation\BetCris MX\Ejecucion_Pruebas\obj\Debug\Ejecucion_Pruebas.pdb
+C:\Automation\BetCris\Ejecucion_Pruebas\bin\Debug\Ejecucion_Pruebas.dll
+C:\Automation\BetCris\Ejecucion_Pruebas\bin\Debug\Ejecucion_Pruebas.pdb
+C:\Automation\BetCris\Ejecucion_Pruebas\bin\Debug\Variables.dll
+C:\Automation\BetCris\Ejecucion_Pruebas\bin\Debug\WebDriver.dll
+C:\Automation\BetCris\Ejecucion_Pruebas\bin\Debug\WebDriver.Support.dll
+C:\Automation\BetCris\Ejecucion_Pruebas\bin\Debug\Variables.pdb
+C:\Automation\BetCris\Ejecucion_Pruebas\bin\Debug\WebDriver.xml
+C:\Automation\BetCris\Ejecucion_Pruebas\bin\Debug\WebDriver.Support.xml
+C:\Automation\BetCris\Ejecucion_Pruebas\obj\Debug\Ejecucion_Pruebas.csprojAssemblyReference.cache
+C:\Automation\BetCris\Ejecucion_Pruebas\obj\Debug\Ejecucion_Pruebas.csproj.CoreCompileInputs.cache
+C:\Automation\BetCris\Ejecucion_Pruebas\obj\Debug\Ejecucion_Pruebas.csproj.CopyComplete
+C:\Automation\BetCris\Ejecucion_Pruebas\obj\Debug\Ejecucion_Pruebas.dll
+C:\Automation\BetCris\Ejecucion_Pruebas\obj\Debug\Ejecucion_Pruebas.pdb
